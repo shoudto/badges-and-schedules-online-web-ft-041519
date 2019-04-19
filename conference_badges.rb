@@ -31,4 +31,8 @@ def printer(attendees)
  x.each do |badge|
    puts badge.chomp  
   end
+  x =assign_rooms(attendees)
+ x.each do |room|
+   puts room.chomp  
+  end
 end 
