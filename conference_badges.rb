@@ -7,6 +7,6 @@ end
 
 def batch_badge_creator(attendees)
   
-  attendees.each{ |attendee| return }
+  attendees.each{ |attendee| return attendees[badges]}
   
 end 
